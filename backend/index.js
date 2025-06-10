@@ -21,8 +21,8 @@ app.get('/api/testing', (req, res) =>{
     res.json({message: 'backend working'});
 });
 
-const chatRouter = require('./routes/chat');
-app.use('/api/chat', chatRouter);
+const chatRoutes = require('./routes/chat');
+app.use('/api/chat', chatRoutes);
 
 const PORT = process.env.PORT || 5050;
 app.listen(PORT, () => {

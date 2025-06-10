@@ -11,8 +11,7 @@ exports.handleChat = async (req, res) => {
 
         res.json({ reply });
     }catch(error){
-        console.error('ne radi chat controller', error.response?.data || error.message || error);
-
-        res.status(500).json({error: 'greska neka'});
+        console.error('chat controller error:', error.message);
+        res.status(500).json({ error: error.message || 'Internal server error' });
     }
 }
