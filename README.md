@@ -1,25 +1,26 @@
 # React AI Chat App
 
-A simple React-based chat application featuring AI-powered responses. This project allows users to interact with a chatbot.
+a simple React-based chat application featuring AI-powered responses. this project allows users to interact with a chatbot.
 
-## Features
+## features
 
-- User and bot message display with distinct styling  
-- Automatic scroll to the latest message  
-- Async communication with backend AI API  
-- Responsive and user-friendly design  
+- user and bot message display with distinct styling  
+- automatic scroll to the latest message  
+- async communication with backend AI API  
+- responsive and user-friendly design  
 
 
 
-## Technologies Used
+## technologies used
 
-### Frontend
+
+### frontend
 
 * **React.js** — for building the user interface and managing state/hooks
 * **CSS** — for styling
 * **Fetch API** — for making HTTP requests from frontend to backend
 
-### Backend
+### backend
 
 * **Node.js** — runtime environment for server-side JavaScript
 * **Express.js** — web framework for handling routing and HTTP requests
