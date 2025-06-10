@@ -1,0 +1,13 @@
+.vscode/
+*.log
+.DS_Store
+
+backend/node_modules/
+backend/.env
+
+frontend/node_modules/
+frontend/.env
+frontend/build/
+
+
+
