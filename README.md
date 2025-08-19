@@ -1,4 +1,4 @@
-# React AI Chat App
+#  AI chat app
 
 a simple React-based chat application featuring AI-powered responses. this project allows users to interact with a chatbot.
 
@@ -24,7 +24,7 @@ a simple React-based chat application featuring AI-powered responses. this proje
 
 * **Node.js** — runtime environment for server-side JavaScript
 * **Express.js** — web framework for handling routing and HTTP requests
-* **CORS** — middleware to handle cross-origin resource sharing between frontend (localhost:3000) and backend (localhost:5050)
+* **CORS** — middleware to handle cross-origin resource sharing between frontend and backend
 * **dotenv** — to load environment variables (like `OPENAI_API_KEY`)
 * **OpenAI Node SDK** — to interact with OpenAI's GPT-3.5 Turbo API
 
